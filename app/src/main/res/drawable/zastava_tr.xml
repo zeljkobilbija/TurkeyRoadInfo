@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Zastava (tr): crvena sa polumesecom i zvezdom; vektor, pa se uvek vidi cela u bilo kojoj veličini -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="60dp" android:height="42dp"
+    android:viewportWidth="60" android:viewportHeight="42">
+    <clip-path android:pathData="M5,0H55A5,5 0,0 1,60,5V37A5,5 0,0 1,55,42H5A5,5 0,0 1,0,37V5A5,5 0,0 1,5,0Z" />
+    <path android:fillColor="#E30A17" android:pathData="M0,0H60V42H0Z" />
+    <path android:fillColor="#FFFFFF" android:pathData="M11.5,21A10.5,10.5 0,1 1,32.5,21A10.5,10.5 0,1 1,11.5,21Z" />
+    <path android:fillColor="#E30A17" android:pathData="M16.200000000000003,21A8.4,8.4 0,1 1,33,21A8.4,8.4 0,1 1,16.200000000000003,21Z" />
+    <path android:fillColor="#FFFFFF" android:pathData="M30.10,21.00L33.12,20.00L33.14,16.82L35.03,19.38L38.06,18.41L36.20,21.00L38.06,23.59L35.03,22.62L33.14,25.18L33.12,22.00Z" />
+    <path android:strokeColor="#33000000" android:strokeWidth="1" android:pathData="M5,0.5H55A4.5,4.5 0,0 1,59.5,5V37A4.5,4.5 0,0 1,55,41.5H5A4.5,4.5 0,0 1,0.5,37V5A4.5,4.5 0,0 1,5,0.5Z" />
+</vector>

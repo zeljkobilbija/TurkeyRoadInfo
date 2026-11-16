@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Zastava (sk): belo-plavo-crvena sa štitom (dupli krst); vektor, pa se uvek vidi cela u bilo kojoj veličini -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="60dp" android:height="42dp"
+    android:viewportWidth="60" android:viewportHeight="42">
+    <clip-path android:pathData="M5,0H55A5,5 0,0 1,60,5V37A5,5 0,0 1,55,42H5A5,5 0,0 1,0,37V5A5,5 0,0 1,5,0Z" />
+    <path android:fillColor="#FFFFFF" android:pathData="M0,0H60V14H0Z" />
+    <path android:fillColor="#0B4EA2" android:pathData="M0,14H60V28H0Z" />
+    <path android:fillColor="#EE1C25" android:pathData="M0,28H60V42H0Z" />
+    <path android:fillColor="#FFFFFF" android:pathData="M14,8H30V22Q30,30 22,33Q14,30 14,22Z" />
+    <path android:fillColor="#EE1C25" android:pathData="M15,9H29V22Q29,29 22,32Q15,29 15,22Z" />
+    <path android:fillColor="#FFFFFF" android:pathData="M21,11H23V14H26V16H23V18H27V20H23V25H21V20H17V18H21V16H18V14H21Z" />
+    <path android:fillColor="#0B4EA2" android:pathData="M15.5,26Q17,23.5 19,25Q22,22.5 25,25Q27,23.5 28.5,26Q27,29.5 22,31.5Q17,29.5 15.5,26Z" />
+    <path android:strokeColor="#33000000" android:strokeWidth="1" android:pathData="M5,0.5H55A4.5,4.5 0,0 1,59.5,5V37A4.5,4.5 0,0 1,55,41.5H5A4.5,4.5 0,0 1,0.5,37V5A4.5,4.5 0,0 1,5,0.5Z" />
+</vector>

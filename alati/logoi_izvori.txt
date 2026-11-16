@@ -1,0 +1,54 @@
+logo_abc.webp	ABC	Q10397504	https://commons.wikimedia.org/wiki/File:ABC_Fuel_logo.svg
+logo_aegean.webp	Aegean	Q28146598	https://commons.wikimedia.org/wiki/File:Aegean-Oil-logo.svg
+logo_air_liquide.webp	Air Liquide	Q407448	https://commons.wikimedia.org/wiki/File:Air_Liquide_-_logo_(France%2C_1991).svg
+logo_alves_bandeira.webp	Alves Bandeira	Q109012157	https://commons.wikimedia.org/wiki/File:Alves_Bandeira_logo.png
+logo_applegreen.webp	Applegreen	Q7178908	https://commons.wikimedia.org/wiki/File:Applegreen_Logo.png
+logo_asda.webp	Asda	Q297410	https://commons.wikimedia.org/wiki/File:ASDA_logo.svg
+logo_avia.webp	AVIA	Q300147	https://commons.wikimedia.org/wiki/File:AVIA_International_logo.svg
+logo_avia_xpress.webp	AVIA XPress	Q300147	https://commons.wikimedia.org/wiki/File:AVIA_International_logo.svg
+logo_aygaz.webp	Aygaz	Q4831225	https://commons.wikimedia.org/wiki/File:Aygaz_logo.svg
+logo_ballenoil.webp	Ballenoil	Q110743569	https://commons.wikimedia.org/wiki/File:Logo_Ballenoil.svg
+logo_benzina.webp	Benzina	Q11130894	https://commons.wikimedia.org/wiki/File:Benzina_nov%C3%A9_logo.png
+logo_bp.webp	BP	Q152057	https://commons.wikimedia.org/wiki/File:Bp_textlogo.svg
+logo_circle_k.webp	Circle K	Q3268010	https://commons.wikimedia.org/wiki/File:Circle_K_logo_2015.svg
+logo_costantin.webp	Costantin	Q48800790	https://commons.wikimedia.org/wiki/File:Logo_Costantin.svg
+logo_eko.webp	EKO	Q3045934	https://commons.wikimedia.org/wiki/File:Logoeko.jpg
+logo_enercoop.webp	Enercoop	Q24936353	https://commons.wikimedia.org/wiki/File:Logo_EnerCoop.png
+logo_enerpetroli.webp	Enerpetroli	Q114647217	https://commons.wikimedia.org/wiki/File:Enerpetroli_logo.png
+logo_esso.webp	Esso	Q867662	https://commons.wikimedia.org/wiki/File:Esso_textlogo.svg
+logo_esso_express.webp	Esso Express	Q2350336	https://commons.wikimedia.org/wiki/File:Esso_textlogo.svg
+logo_eurooil.webp	EuroOil	Q110219457	https://commons.wikimedia.org/wiki/File:Logo_EuroOil.png
+logo_galp.webp	Galp	Q1492739	https://commons.wikimedia.org/wiki/File:Galp_Logo_2024.svg
+logo_gazprom.webp	Gazprom	Q102673	https://commons.wikimedia.org/wiki/File:Gazprom_logo.svg
+logo_gulf.webp	Gulf	Q5617505	https://commons.wikimedia.org/wiki/File:Gulf_Oil_logo.svg
+logo_ina.webp	INA	Q1662137	https://commons.wikimedia.org/wiki/File:Ina_logo.svg
+logo_ingo.webp	Ingo	Q17048617	https://commons.wikimedia.org/wiki/File:Ingo_logo.svg
+logo_lukoil.webp	Lukoil	Q329347	https://commons.wikimedia.org/wiki/File:Lukoil_company_logo.svg
+logo_maxol.webp	Maxol	Q3302837	https://commons.wikimedia.org/wiki/File:Maxol_Logo.jpg
+logo_migrol.webp	Migrol	Q1747771	https://commons.wikimedia.org/wiki/File:Logo_Migrol.svg
+logo_moeve.webp	Moeve	Q608819	https://commons.wikimedia.org/wiki/File:Moeve_logo.svg
+logo_mol.webp	MOL	Q549181	https://commons.wikimedia.org/wiki/File:MOL_Group.svg
+logo_neste.webp	Neste	Q616376	https://commons.wikimedia.org/wiki/File:Neste_logo.png
+logo_oil.webp	OIL!	Q2007561	https://commons.wikimedia.org/wiki/File:OIL!_Logo.svg
+logo_ok.webp	OK	Q123472183	https://commons.wikimedia.org/wiki/File:OK_Nederland_Logo.png
+logo_opet.webp	Opet	Q7072824	https://commons.wikimedia.org/wiki/File:Opet_logo.svg
+logo_orlen_express.webp	Orlen express	Q971649	https://commons.wikimedia.org/wiki/File:Orlen_wordmark_logo.svg
+logo_petrol.webp	Petrol	Q174824	https://commons.wikimedia.org/wiki/File:Petrol_Group_logo.svg
+logo_petronor.webp	Petronor	Q1726547	https://commons.wikimedia.org/wiki/File:Petronor_logo_2024.png
+logo_petroprix.webp	Petroprix	Q128327113	https://commons.wikimedia.org/wiki/File:Logo_Petroprix.svg
+logo_preem.webp	Preem	Q598835	https://commons.wikimedia.org/wiki/File:Preem_wordmark.svg
+logo_prio.webp	Prio	Q62530421	https://commons.wikimedia.org/wiki/File:Prio-logo-cores-2024.svg
+logo_q8.webp	Q8	Q4119207	https://commons.wikimedia.org/wiki/File:Q8_logo.svg
+logo_shell.webp	Shell	Q110716465	https://commons.wikimedia.org/wiki/File:Shell_wordmark_2019.svg
+logo_slovnaft.webp	Slovnaft	Q1587563	https://commons.wikimedia.org/wiki/File:%D0%A1%D0%BB%D0%BE%D0%B2%D0%BD%D0%B0%D1%84%D1%82.jpg
+logo_st1.webp	St1	Q7592214	https://commons.wikimedia.org/wiki/File:St1_logo.svg
+logo_tamoil.webp	Tamoil	Q706793	https://commons.wikimedia.org/wiki/File:Tamoil.svg
+logo_tango.webp	Tango	Q125867683	https://commons.wikimedia.org/wiki/File:Tango_tankstations_logo.png
+logo_teboil.webp	Teboil	Q7692079	https://commons.wikimedia.org/wiki/File:Teboil_logo.svg
+logo_tesco.webp	Tesco	Q487494	https://commons.wikimedia.org/wiki/File:Tesco_logo.png
+logo_texaco.webp	Texaco	Q775060	https://commons.wikimedia.org/wiki/File:Texaco_logo.svg
+logo_tinq.webp	Tinq	Q2132028	https://commons.wikimedia.org/wiki/File:TinQ_logo_01.gif
+logo_top.webp	Top	Q7693933	https://commons.wikimedia.org/wiki/File:TOP_Oil_Ireland_logo.png
+logo_totalenergies.webp	TotalEnergies	Q154037	https://commons.wikimedia.org/wiki/File:Total_wordmark_(2003-2021).svg
+logo_turm_l.webp	Turmöl	Q1473279	https://commons.wikimedia.org/wiki/File:Logo_turmoel_hoch.png
+logo_uno_x.webp	Uno-X	Q3362746	https://commons.wikimedia.org/wiki/File:Uno_X_logo_1999.svg
