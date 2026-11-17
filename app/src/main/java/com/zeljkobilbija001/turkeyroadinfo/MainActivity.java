@@ -25,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
     private static final int KOLONA = 3;
 
     private ImageButton dugmePrivatnosti;
+    private VoznjaKartica voznja;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -87,6 +88,23 @@ public class MainActivity extends AppCompatActivity {
         dugmePrivatnosti.setOnClickListener(v ->
                 Reklame.prikaziPodesavanjaPrivatnosti(this, this::posleSaglasnosti));
         Reklame.prikupiSaglasnost(this, this::posleSaglasnosti);
+
+        voznja = new VoznjaKartica(this);
+        VoznjaKartica.bezReklama(this);
+    }
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+        if (voznja == null) return; // aplikacija za jednu zemlju: ovaj ekran se odmah zatvara
+        VoznjaService.postaviSlusaoca(voznja::osvezi);
+        voznja.osvezi();
+    }
+
+    @Override
+    protected void onStop() {
+        if (voznja != null) VoznjaService.postaviSlusaoca(null);
+        super.onStop();
     }
 
     private void posleSaglasnosti() {
