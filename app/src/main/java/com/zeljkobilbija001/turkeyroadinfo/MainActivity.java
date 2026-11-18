@@ -97,13 +97,13 @@ public class MainActivity extends AppCompatActivity {
     protected void onStart() {
         super.onStart();
         if (voznja == null) return; // aplikacija za jednu zemlju: ovaj ekran se odmah zatvara
-        VoznjaService.postaviSlusaoca(voznja::osvezi);
+        VoznjaService.postaviSlusaoca(this, voznja::osvezi);
         voznja.osvezi();
     }
 
     @Override
     protected void onStop() {
-        if (voznja != null) VoznjaService.postaviSlusaoca(null);
+        if (voznja != null) VoznjaService.skiniSlusaoca(this);
         super.onStop();
     }
 
