@@ -29,6 +29,7 @@ final class VoznjaKartica {
     private final AppCompatActivity a;
     private final MaterialButton dugme;
     private final TextView opis;
+    private final View trazi;
     /** Dozvole za režim vožnje: precizna lokacija (obavezno) i obaveštenja (Android 13+). */
     private final ActivityResultLauncher<String[]> dozvole;
 
@@ -36,6 +37,7 @@ final class VoznjaKartica {
         this.a = a;
         dugme = a.findViewById(R.id.voznjaDugme);
         opis = a.findViewById(R.id.voznjaOpis);
+        trazi = a.findViewById(R.id.voznjaTrazi);
         dozvole = a.registerForActivityResult(new ActivityResultContracts.RequestMultiplePermissions(), r -> posleDozvola());
         // proba (samo debug verzija): dodir na karticu "Vožnja" otvara dnevnik
         if (Dnevnik.ukljucen(a)) {
@@ -61,8 +63,7 @@ final class VoznjaKartica {
             traziti.add(Manifest.permission.POST_NOTIFICATIONS);
         }
         if (traziti.isEmpty()) {
-            VoznjaService.pokreni(a);
-            osvezi();
+            pokreniAkoLokacija();
         } else {
             dozvole.launch(traziti.toArray(new String[0]));
         }
@@ -70,11 +71,39 @@ final class VoznjaKartica {
 
     private void posleDozvola() {
         if (ima(Manifest.permission.ACCESS_FINE_LOCATION)) {
-            VoznjaService.pokreni(a);
-            osvezi();
+            pokreniAkoLokacija();
         } else {
-            Snackbar.make(a.findViewById(R.id.main), R.string.voznja_dozvola, Snackbar.LENGTH_LONG).show();
+            // jasan prozor umesto sitne poruke na dnu: bez dozvole Vožnja ne može da radi
+            prozorLokacije(R.string.voznja_bez_dozvole_poruka,
+                    new android.content.Intent(android.provider.Settings.ACTION_APPLICATION_DETAILS_SETTINGS,
+                            android.net.Uri.fromParts("package", a.getPackageName(), null)));
         }
+    }
+
+    /** Dozvola postoji; Vožnja se pokreće samo ako je lokacija na telefonu uključena. */
+    private void pokreniAkoLokacija() {
+        android.location.LocationManager lm = a.getSystemService(android.location.LocationManager.class);
+        if (lm != null && !androidx.core.location.LocationManagerCompat.isLocationEnabled(lm)) {
+            prozorLokacije(R.string.voznja_gps_iskljucen_poruka,
+                    new android.content.Intent(android.provider.Settings.ACTION_LOCATION_SOURCE_SETTINGS));
+            return;
+        }
+        VoznjaService.pokreni(a);
+        osvezi();
+    }
+
+    /** Prozor "Vožnja ne može da se pokrene" sa dugmetom koje otvara podešavanja. */
+    private void prozorLokacije(int poruka, android.content.Intent podesavanja) {
+        new com.google.android.material.dialog.MaterialAlertDialogBuilder(a)
+                .setTitle(R.string.voznja_ne_moze_naslov)
+                .setMessage(poruka)
+                .setPositiveButton(R.string.stanje_podesavanja, (d, w) -> {
+                    try {
+                        a.startActivity(podesavanja);
+                    } catch (Exception ignored) { }
+                })
+                .setNegativeButton(android.R.string.cancel, null)
+                .show();
     }
 
     /** Dugme i opis prema stanju režima (poziva se na glavnoj niti). */
@@ -85,6 +114,10 @@ final class VoznjaKartica {
         String tekst = radi && !o.isEmpty() ? o : a.getString(R.string.voznja_opis);
         if (Dnevnik.ukljucen(a)) tekst += "\nDNEVNIK › (dodir na karticu)";
         opis.setText(tekst);
+        // kružić dok Vožnja traži autoput ili smer; narandžasto kad je lokacija isključena ili nema interneta
+        trazi.setVisibility(radi && VoznjaService.trazi ? View.VISIBLE : View.GONE);
+        opis.setTextColor(radi && VoznjaService.upozorenje ? Izgled.boja(a, R.color.ovde)
+                : Izgled.boja(a, R.color.plava_svetla));
     }
 
     /**
