@@ -106,6 +106,9 @@ final class VoznjaKartica {
                 .show();
     }
 
+    /** Da li je Vožnja već jednom sama otvorila ekran autoputa (od poslednjeg uključenja). */
+    private static boolean voznjaOtvorila;
+
     /** Dugme i opis prema stanju režima (poziva se na glavnoj niti). */
     void osvezi() {
         boolean radi = VoznjaService.radi;
@@ -118,6 +121,13 @@ final class VoznjaKartica {
         trazi.setVisibility(radi && VoznjaService.trazi ? View.VISIBLE : View.GONE);
         opis.setTextColor(radi && VoznjaService.upozorenje ? Izgled.boja(a, R.color.ovde)
                 : Izgled.boja(a, R.color.plava_svetla));
+        // Vožnja je našla autoput i mesto na njemu: jednom po uključenju sama otvara taj autoput
+        // (ekran autoputa ide do reda "Vi ste ovde"); povratak nazad posle toga ne vraća ponovo
+        if (!VoznjaService.radi) voznjaOtvorila = false;
+        else if (VoznjaService.sadAutoput != null && !voznjaOtvorila && !a.isFinishing()) {
+            voznjaOtvorila = true;
+            a.startActivity(AutoputActivity.namera(a, VoznjaService.sadAutoput));
+        }
     }
 
     /**

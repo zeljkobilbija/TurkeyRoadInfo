@@ -56,4 +56,5 @@
     <string name="det_cene_ucitavanje">Qiymətlər yüklənir…</string>
     <string name="det_cene_greska">Qiymətlər hazırda mövcud deyil.</string>
     <string name="zemlja_tr">Türkiyə</string>
+    <string name="lokacija_pravac">%s istiqaməti</string>
 </resources>

@@ -56,4 +56,5 @@
     <string name="det_cene_ucitavanje">ფასები იტვირთება…</string>
     <string name="det_cene_greska">ფასები ახლა მიუწვდომელია.</string>
     <string name="zemlja_tr">თურქეთი</string>
+    <string name="lokacija_pravac">მიმართულება %s</string>
 </resources>

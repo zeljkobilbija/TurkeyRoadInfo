@@ -56,4 +56,5 @@
     <string name="det_cene_ucitavanje">Завантаження цін…</string>
     <string name="det_cene_greska">Ціни зараз недоступні.</string>
     <string name="zemlja_tr">Туреччина</string>
+    <string name="lokacija_pravac">напрямок %s</string>
 </resources>

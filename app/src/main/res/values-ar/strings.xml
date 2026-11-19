@@ -56,4 +56,5 @@
     <string name="det_cene_ucitavanje">جارٍ تحميل الأسعار…</string>
     <string name="det_cene_greska">الأسعار غير متوفرة حاليًا.</string>
     <string name="zemlja_tr">تركيا</string>
+    <string name="lokacija_pravac">الاتجاه %s</string>
 </resources>

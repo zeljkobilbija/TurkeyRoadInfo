@@ -56,4 +56,5 @@
     <string name="det_cene_ucitavanje">در حال بارگیری قیمت‌ها…</string>
     <string name="det_cene_greska">قیمت‌ها اکنون در دسترس نیستند.</string>
     <string name="zemlja_tr">ترکیه</string>
+    <string name="lokacija_pravac">جهت %s</string>
 </resources>
