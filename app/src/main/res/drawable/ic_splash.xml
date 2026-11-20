@@ -1,14 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Splash: ikona aplikacije (zastava i put ka horizontu); Android 12+ je iseca u krug -->
+<!-- Turski znak „Otoyol“: zeleni pravougaonik sa belim okvirom,
+     u sredini beli put sa nadvožnjakom. Sve unutar kruga prečnika 72 (maska splash ekrana). -->
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
     android:width="288dp"
     android:height="288dp"
     android:viewportWidth="108"
     android:viewportHeight="108">
-    <path android:fillColor="#E30A17" android:pathData="M0.00,0.00L108.00,0.00L108.00,56.00L0.00,56.00Z" />
-    <path android:fillColor="#FFFFFF" android:pathData="M55.00,36.00L54.93,37.47L54.71,38.93L54.35,40.35L53.86,41.74L53.23,43.07L52.47,44.33L51.60,45.52L50.61,46.61L49.52,47.60L48.33,48.47L47.07,49.23L45.74,49.86L44.35,50.35L42.93,50.71L41.47,50.93L40.00,51.00L38.53,50.93L37.07,50.71L35.65,50.35L34.26,49.86L32.93,49.23L31.67,48.47L30.48,47.60L29.39,46.61L28.40,45.52L27.53,44.33L26.77,43.07L26.14,41.74L25.65,40.35L25.29,38.93L25.07,37.47L25.00,36.00L25.07,34.53L25.29,33.07L25.65,31.65L26.14,30.26L26.77,28.93L27.53,27.67L28.40,26.48L29.39,25.39L30.48,24.40L31.67,23.53L32.93,22.77L34.26,22.14L35.65,21.65L37.07,21.29L38.53,21.07L40.00,21.00L41.47,21.07L42.93,21.29L44.35,21.65L45.74,22.14L47.07,22.77L48.33,23.53L49.52,24.40L50.61,25.39L51.60,26.48L52.47,27.67L53.23,28.93L53.86,30.26L54.35,31.65L54.71,33.07L54.93,34.53Z" />
-    <path android:fillColor="#E30A17" android:pathData="M56.00,36.00L55.94,37.18L55.77,38.34L55.48,39.48L55.09,40.59L54.58,41.66L53.98,42.67L53.28,43.61L52.49,44.49L51.61,45.28L50.67,45.98L49.66,46.58L48.59,47.09L47.48,47.48L46.34,47.77L45.18,47.94L44.00,48.00L42.82,47.94L41.66,47.77L40.52,47.48L39.41,47.09L38.34,46.58L37.33,45.98L36.39,45.28L35.51,44.49L34.72,43.61L34.02,42.67L33.42,41.66L32.91,40.59L32.52,39.48L32.23,38.34L32.06,37.18L32.00,36.00L32.06,34.82L32.23,33.66L32.52,32.52L32.91,31.41L33.42,30.34L34.02,29.33L34.72,28.39L35.51,27.51L36.39,26.72L37.33,26.02L38.34,25.42L39.41,24.91L40.52,24.52L41.66,24.23L42.82,24.06L44.00,24.00L45.18,24.06L46.34,24.23L47.48,24.52L48.59,24.91L49.66,25.42L50.67,26.02L51.61,26.72L52.49,27.51L53.28,28.39L53.98,29.33L54.58,30.34L55.09,31.41L55.48,32.52L55.77,33.66L55.94,34.82Z" />
-    <path android:fillColor="#FFFFFF" android:pathData="M51.50,36.00L57.25,34.00L57.37,27.92L61.05,32.77L66.88,31.00L63.40,36.00L66.88,41.00L61.05,39.23L57.37,44.08L57.25,38.00Z" />
-    <path android:fillColor="#2E3440" android:pathData="M0.00,56.00L108.00,56.00L108.00,108.00L0.00,108.00Z" />
-    <path android:fillColor="#FFFFFF" android:fillType="evenOdd" android:pathData="M10.00,108.00L48.50,56.00L59.50,56.00L98.00,108.00ZM53.27,58.60L54.73,58.60L55.04,64.84L52.96,64.84ZM52.62,71.60L55.38,71.60L55.69,77.84L52.31,77.84ZM51.97,84.60L56.03,84.60L56.34,90.84L51.66,90.84ZM51.32,97.60L56.68,97.60L56.99,103.84L51.01,103.84Z" />
+    <!-- tabla -->
+    <path android:fillColor="#00703C"
+        android:pathData="M33,28h42a5,5 0 0 1 5,5v42a5,5 0 0 1 -5,5h-42a5,5 0 0 1 -5,-5v-42a5,5 0 0 1 5,-5z" />
+    <!-- beli okvir -->
+    <path android:fillColor="#00000000" android:strokeColor="#FFFFFF" android:strokeWidth="2"
+        android:pathData="M34,31.5h40a2.5,2.5 0 0 1 2.5,2.5v40a2.5,2.5 0 0 1 -2.5,2.5h-40a2.5,2.5 0 0 1 -2.5,-2.5v-40a2.5,2.5 0 0 1 2.5,-2.5z" />
+    <!-- put sa nadvožnjakom -->
+    <group android:pivotX="54" android:pivotY="59" android:scaleX="0.6" android:scaleY="0.6"
+        android:translateY="-5">
+        <path android:fillColor="#FFFFFF" android:pathData="M27,34h54v7h-54z" />
+        <path android:fillColor="#FFFFFF" android:pathData="M31,41h5v10h-5z M72,41h5v10h-5z" />
+        <path android:fillColor="#FFFFFF" android:pathData="M30,84 L48,84 L51.5,50 L46.5,50 Z" />
+        <path android:fillColor="#FFFFFF" android:pathData="M60,84 L78,84 L61.5,50 L56.5,50 Z" />
+    </group>
 </vector>
