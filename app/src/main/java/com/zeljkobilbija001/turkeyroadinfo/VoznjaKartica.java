@@ -43,6 +43,16 @@ final class VoznjaKartica {
         if (Dnevnik.ukljucen(a)) {
             a.findViewById(R.id.voznja).setOnClickListener(v -> a.startActivity(new Intent(a, DnevnikActivity.class)));
         }
+        // 🔊/🔇: glasovne poruke u Vožnji (podrazumevano uključene)
+        TextView glas = a.findViewById(R.id.voznjaGlas);
+        if (glas != null) {
+            glas.setText(Glas.ukljucen(a) ? "🔊" : "🔇");
+            glas.setOnClickListener(v -> {
+                boolean da = !Glas.ukljucen(a);
+                Glas.postavi(a, da);
+                glas.setText(da ? "🔊" : "🔇");
+            });
+        }
         dugme.setOnClickListener(v -> {
             if (VoznjaService.radi) VoznjaService.zaustavi(a);
             else pokreni();
