@@ -52,6 +52,11 @@ final class VoznjaKartica {
                 Glas.postavi(a, da);
                 glas.setText(da ? "🔊" : "🔇");
             });
+            // dugi pritisak: izbor šta glas javlja
+            glas.setOnLongClickListener(v -> {
+                Glas.izbor(v.getContext());
+                return true;
+            });
         }
         dugme.setOnClickListener(v -> {
             if (VoznjaService.radi) VoznjaService.zaustavi(a);
