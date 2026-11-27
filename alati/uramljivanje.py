@@ -13,11 +13,11 @@ SIROVO = os.path.join(KOREN, 'sirovo')
 SNIMCI = [(1, 2000), (2, 2000), (3, 2000), (4, 2000), (5, 2000)]   # sirovo/<jezik><n>.png (aplikacija na tom jeziku)
 NASLOVI = {
     'en': ['Every Turkish motorway, even offline', 'Exits and service areas by kilometre',
-           'Driving mode with voice announcements', 'Fuel stations, brands and facilities',
-           'Filter: fuel, food, parking'],
+           'Fuel stations, brands and facilities', 'Filter: fuel, food, parking',
+           'EV charging along the motorway'],
     'tr': ["Türkiye'nin tüm otoyolları, internetsiz", 'Kilometreye göre çıkışlar ve tesisler',
-           'Sesli anonslu Sürüş modu', 'Akaryakıt, markalar ve hizmetler',
-           'Filtre: akaryakıt, yemek, otopark'],
+           'Akaryakıt, markalar ve hizmetler', 'Filtre: akaryakıt, yemek, otopark',
+           'Otoyol boyunca elektrikli şarj'],
 }
 W, H = 1080, 1920
 font = ImageFont.truetype(r'C:\Windows\Fonts\segoeuib.ttf', 64)
