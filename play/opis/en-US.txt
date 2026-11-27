@@ -1,0 +1,43 @@
+NASLOV:
+Turkey Road Info: Motorways
+
+KRATAK OPIS:
+Exits, service areas, fuel stations and rest areas on Turkish motorways.
+
+PUN OPIS:
+⚠️ Unofficial app: Turkey Road Info is an independent app. It is not published by any government, road authority or motorway operator, and does not represent any government entity.
+
+On the road in Türkiye and need fuel, a çay, a restroom or a place to rest? Turkey Road Info shows what's ahead on every Turkish otoyol – exit by exit, sorted by kilometre, in your direction of travel.
+
+Pick a motorway and your direction, and you get:
+• every exit and interchange with its kilometre
+• service areas and rest areas on your side of the road
+• fuel stations with brand logos, restaurants and facilities (WC, showers, shop, hotel)
+• EV chargers and truck parking spaces
+• phone number and website where available
+
+DRIVING MODE
+Start Driving mode and the app finds the motorway you are on, the kilometre and your direction, and shows the next exits, service areas and fuel stations ahead. Voice announcements tell you the motorway and the next service area. When you change motorway, the list follows you. Stop it with one tap or by closing the app.
+
+COVERAGE
+17 motorways: O-2, O-3, O-4, O-5, O-6, O-7, O-20, O-21, O-22, O-30, O-31, O-32, O-33, O-51, O-52, O-53 and O-54.
+
+WORKS OFFLINE
+All motorway data is built into the app, so it works without signal.
+
+MADE FOR DRIVERS
+• one tap opens navigation to the place
+• share any service area or exit
+• filters: fuel, food, parking, exits, EV charging
+• no account, no sign-up; your location stays on your phone
+• one-time purchase to remove ads
+• 24 languages, including Turkish, English, German, Russian, Arabic and Persian
+
+DATA SOURCES
+Motorway data © OpenStreetMap contributors (ODbL). Toll, traffic and road condition information is not included – please use the official sources below.
+
+OFFICIAL SOURCES (links)
+• Roads and motorways: General Directorate of Highways (Karayolları Genel Müdürlüğü, KGM) – https://www.kgm.gov.tr
+• Motorway data: OpenStreetMap – https://www.openstreetmap.org/copyright
+
+Independent app, not affiliated with KGM, any motorway operator or government agency. Always follow road signs and traffic rules; do not use your phone while driving.

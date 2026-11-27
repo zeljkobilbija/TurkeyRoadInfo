@@ -1,0 +1,43 @@
+NASLOV:
+Otoyol Bilgi: Türkiye
+
+KRATAK OPIS:
+Türkiye otoyollarında çıkışlar, dinlenme tesisleri, akaryakıt ve park alanları.
+
+PUN OPIS:
+⚠️ Resmî olmayan uygulama: Otoyol Bilgi bağımsız bir uygulamadır. Herhangi bir devlet kurumu, karayolu idaresi veya otoyol işletmecisi tarafından yayımlanmamıştır ve hiçbir kamu kurumunu temsil etmez.
+
+Yolda akaryakıta, bir çaya, tuvalete veya mola yerine mi ihtiyacınız var? Otoyol Bilgi, Türkiye'deki tüm otoyollarda önünüzde ne olduğunu gösterir: çıkış çıkış, kilometreye göre sıralı, gidiş yönünüzde.
+
+Bir otoyol ve yön seçin, şunları görün:
+• kilometresiyle birlikte tüm çıkışlar ve kavşaklar
+• yolun sizin tarafınızdaki dinlenme tesisleri ve park alanları
+• marka logolarıyla akaryakıt istasyonları, restoranlar ve hizmetler (WC, duş, market, otel)
+• elektrikli araç şarj noktaları ve tır park yerleri
+• varsa telefon numarası ve web sitesi
+
+SÜRÜŞ MODU
+Sürüş modunu başlatın; uygulama bulunduğunuz otoyolu, kilometreyi ve yönünüzü bulur, önünüzdeki çıkışları, dinlenme tesislerini ve akaryakıt istasyonlarını gösterir. Sesli anonslar otoyolu ve bir sonraki dinlenme tesisini bildirir. Otoyol değiştirdiğinizde liste sizi takip eder. Tek dokunuşla veya uygulamayı kapatarak durdurun.
+
+KAPSAM
+17 otoyol: O-2, O-3, O-4, O-5, O-6, O-7, O-20, O-21, O-22, O-30, O-31, O-32, O-33, O-51, O-52, O-53 ve O-54.
+
+İNTERNETSİZ ÇALIŞIR
+Tüm otoyol verileri uygulamanın içindedir, bu yüzden çekim olmadan da çalışır.
+
+SÜRÜCÜLER İÇİN
+• tek dokunuşla yere navigasyon
+• dinlenme tesisini veya çıkışı paylaşma
+• filtreler: akaryakıt, yemek, otopark, çıkışlar, şarj
+• hesap yok, kayıt yok; konumunuz telefonunuzda kalır
+• reklamları kaldırmak için tek seferlik satın alma
+• Türkçe, İngilizce, Almanca, Rusça, Arapça ve Farsça dahil 24 dil
+
+VERİ KAYNAKLARI
+Otoyol verileri © OpenStreetMap katkıda bulunanları (ODbL). Geçiş ücreti, trafik ve yol durumu bilgileri yer almaz; lütfen aşağıdaki resmî kaynakları kullanın.
+
+RESMÎ KAYNAKLAR (bağlantılar)
+• Yollar ve otoyollar: Karayolları Genel Müdürlüğü (KGM) – https://www.kgm.gov.tr
+• Otoyol verileri: OpenStreetMap – https://www.openstreetmap.org/copyright
+
+Bağımsız uygulama; KGM, herhangi bir otoyol işletmecisi veya kamu kurumuyla bağlantılı değildir. Her zaman trafik işaretlerine ve kurallarına uyun; sürüş sırasında telefonunuzu kullanmayın.

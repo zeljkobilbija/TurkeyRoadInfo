@@ -1,0 +1,6 @@
+<en-US>
+First release: exits, service areas, fuel stations and EV chargers on 17 Turkish motorways, sorted by kilometre. Driving mode with voice announcements. Works offline.
+</en-US>
+<tr-TR>
+İlk sürüm: 17 Türk otoyolunda kilometreye göre sıralı çıkışlar, dinlenme tesisleri, akaryakıt istasyonları ve şarj noktaları. Sesli anonslu Sürüş modu. İnternetsiz çalışır.
+</tr-TR>
