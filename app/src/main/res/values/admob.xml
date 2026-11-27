@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!--
-      TODO: pre objave napravi aplikaciju u AdMob konzoli (TurkeyRoadInfo) i ovde upiši PRAVE ID-jeve.
-      Dok toga nema, i release verzija koristi Google-ove probne ID-jeve.
-    -->
-    <string name="admob_app_id" translatable="false">ca-app-pub-3940256099942544~3347511713</string>
-    <string name="admob_banner_id" translatable="false">ca-app-pub-3940256099942544/9214589741</string>
-    <!-- interstitial pri otvaranju autoputa: UPISATI pravi ID iz AdMob konzole (prazno = oglas se ne prikazuje) -->
-    <string name="admob_interstitial_id" translatable="false"></string>
+    <!-- Pravi AdMob ID-jevi (aplikacija „Turkey Road Info“ ~4756012858, napravljena 27.11.2026 kao nepovezana).
+         Debug verzija koristi Google-ove probne ID-jeve iz src/debug/res/values/admob.xml. -->
+    <string name="admob_app_id" translatable="false">ca-app-pub-7920431183682527~4756012858</string>
+    <string name="admob_banner_id" translatable="false">ca-app-pub-7920431183682527/8761485285</string>
+    <!-- interstitial pri otvaranju autoputa (od trećeg svako treće, najviše 1 u 3 min, nikad u Vožnji) -->
+    <string name="admob_interstitial_id" translatable="false">ca-app-pub-7920431183682527/1939432772</string>
 </resources>
