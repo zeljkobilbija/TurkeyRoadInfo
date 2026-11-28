@@ -286,7 +286,7 @@ public class AutoputActivity extends AppCompatActivity {
      */
     private void postaviStrelicu() {
         if (mojaDeonica != deonica || prikazano.isEmpty()) {
-            if (adapter.pozicijaOvde() >= 0) adapter.postaviOvde(-1, 0, "", false, false);
+            if (adapter.pozicijaOvde() >= 0) adapter.postaviOvde(-1, 0, 0, "", false, false);
             return;
         }
         int i = 0;
@@ -296,7 +296,7 @@ public class AutoputActivity extends AppCompatActivity {
         String tekst = mojSmer == '?' ? getString(R.string.lokacija_vi_ste_ovde)
                 : getString(R.string.lokacija_vi_ste_ovde) + " · "
                 + getString(R.string.lokacija_pravac, mojSmer == '+' ? d.plus : d.minus); // "Vi ste ovde · pravac X"
-        adapter.postaviOvde(i, d.kmZaPrikaz(mojKm), tekst, mojSmer != '?', mojSmer != '?' && mojSmer != smer);
+        adapter.postaviOvde(i, d.kmZaPrikaz(mojKm), mojKm, tekst, mojSmer != '?', mojSmer != '?' && mojSmer != smer);
         pratiListu();
     }
 
